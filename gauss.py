@@ -13,12 +13,7 @@ from fractions import Fraction
 from functools import reduce
 
 termSizeColumns = os.get_terminal_size().columns
-W  = '\033[0m'  # white (normal)
-R  = '\033[31m' # red
-G  = '\033[32m' # green
-O  = '\033[33m' # orange
-B  = '\033[34m' # blue
-P  = '\033[35m' # purple
+
 
 class gauss :
     _colors_ = {
